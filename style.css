@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    width: 150vh;
+    height: 50vh;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 10vh;
+    margin-top: 20vh;
+    margin-left: 25vh;
+    
+}
+#padlock {
+    background-image: url(padlock.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 35%;
+    
+}
+#text {
+    width: 75%;
+    font-size: large;
+}
+.text_hidden{
+    opacity:0 ;
+}
